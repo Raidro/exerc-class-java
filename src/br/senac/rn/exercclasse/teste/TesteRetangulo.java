@@ -13,8 +13,8 @@ public class TesteRetangulo extends Retangulo {
 
         System.out.println("Lados: " + retangulo.mostraValorLados());
 
-        retangulo.mudarValorLadoA(5.0);
-        retangulo.mudarValorLadoB(5.0);
+        retangulo.mudarValorLadoA(7.0);
+        retangulo.mudarValorLadoB(8.0);
 
 
         System.out.println("Lados: " + retangulo.mostraValorLados());
