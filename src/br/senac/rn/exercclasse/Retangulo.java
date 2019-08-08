@@ -11,7 +11,7 @@ public class Retangulo {
     public Double perimetro;
     public final Double PISO = 0.2025; // valor constante de 45cm x 45cm *trabalei com tudo em metros*
     public Double qtdsPiso;
-    public final Double PISOP = 0.90; // o dobro da largura, 45cm * 2
+    public final Double PISOP = 0.45; // o dobro da largura, 45cm * 2
     public Double qtdsRodape;
 
     //posso criar 2 construtores um vazio e outro com os valores de ladoa e ladob.
@@ -26,7 +26,7 @@ public class Retangulo {
 
     public Double medePerimetro() {
 
-        qtdsRodape = (PISO / PISOP) * 100;
+        qtdsRodape = (perimetro / PISOP);
         return qtdsRodape;
     }
 

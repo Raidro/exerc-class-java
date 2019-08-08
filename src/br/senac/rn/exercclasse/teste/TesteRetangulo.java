@@ -22,9 +22,9 @@ public class TesteRetangulo extends Retangulo {
         System.out.println("Area: " + retangulo.calculaArea());
         System.out.println("Perimetro: " + retangulo.calculaPerimetro());
 
-        System.out.println("Quantidade de pisos necessarios: " + retangulo.medePiso());
+        System.out.println("Quantidade de pisos necessarios: " + Math.ceil(retangulo.medePiso()));
 
-        System.out.println("Quantidade de pisos necessarios:"+ retangulo.medePerimetro());
+        System.out.println("Quantidade de Rodapés necessarios:"+ Math.ceil(retangulo.medePerimetro()));
 
 
     }

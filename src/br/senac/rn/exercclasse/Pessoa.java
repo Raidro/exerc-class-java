@@ -11,27 +11,27 @@ public class Pessoa {
     public Double novaAltura;
     public Double contador = 0.5;
 
-    Integer envenlhece(Integer qtdsEvenlhecida) {
+    public Integer envenlhece(Integer qtdsEvenlhecida) {
 
         novaIdade = idade + qtdsEvenlhecida;
         return novaIdade;
 
     }
 
-    Double engorda(Double qtdsEngordada) {
+    public Double engorda(Double qtdsEngordada) {
 
         novoPeso = peso + qtdsEngordada;
         return novoPeso;
     }
 
-    Double emagrece(Double qtdsEmagrecida) {
+    public Double emagrece(Double qtdsEmagrecida) {
 
         novoPeso = peso - qtdsEmagrecida;
         return novoPeso;
 
     }
 
-    Double cresce(Double qtdsCresida) {
+    public Double cresce(Double qtdsCresida) {
 
         novaAltura = altura + qtdsCresida;
         return novaAltura;
