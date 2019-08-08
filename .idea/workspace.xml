@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8714fb25-be12-449b-97d3-1a17000d61fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/Retangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/Retangulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/teste/TesteRetangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/teste/TesteRetangulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/Retangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/TestePessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/teste/TestePessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/teste/TesteRetangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/teste/TesteRetangulo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +30,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.senac.rn.exercclasse.teste" />
+      <recent name="br.senac.rn.exercclasse" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -105,7 +115,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

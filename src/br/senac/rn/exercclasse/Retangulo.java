@@ -22,19 +22,23 @@ public class Retangulo {
 
     }
 
-    public Double medePerimetro(){
+    public Double medePerimetro() {
 
-        qtdsRodape = (PISO/PISOP)*100;
+        qtdsRodape = (PISO / PISOP) * 100;
         return qtdsRodape;
     }
 
-
-    public void mudarValorLado(Double novoLadoA, Double novoLaboB) {
+    public void mudarValorLadoA(Double novoLadoA) {
 
         ladoA = novoLadoA;
-        ladoB = novoLaboB;
 
     }
+
+    public void mudarValorLadoB(Double novoLaboB) {
+
+        ladoB = novoLaboB;
+    }
+
 
     public Vector mostraValorLados() {
 
@@ -46,6 +50,7 @@ public class Retangulo {
     }
 
     /*
+
     Soluções pra mostrarValorLado:
 
     public Double mostraValorLadoA(){
@@ -57,7 +62,6 @@ public class Retangulo {
     }
 
     */
-
 
     public Double calculaArea() {
 
