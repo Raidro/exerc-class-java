@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8714fb25-be12-449b-97d3-1a17000d61fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/teste/TestePessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/teste/TestePessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/teste/TestePessoa.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/teste/TestePessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/teste/TestePessoa.java" afterDir="false" />
     </list>

@@ -10,7 +10,7 @@ public class TestePessoa extends Pessoa {
         Pessoa pessoa = new Pessoa();
 
         pessoa.nome = "Mateus";
-        pessoa.idade = 28;
+        pessoa.idade = 18;
         pessoa.peso = 80.0;
         pessoa.altura = 1.74;
 
