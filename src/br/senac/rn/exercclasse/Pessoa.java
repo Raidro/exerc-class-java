@@ -1,5 +1,6 @@
 package br.senac.rn.exercclasse;
 
+
 public class Pessoa {
 
     public String nome;
@@ -9,32 +10,39 @@ public class Pessoa {
     public Integer novaIdade;
     public Double novoPeso;
     public Double novaAltura;
-    public Double contador = 0.5;
+    public Integer aux;
 
-    public Integer envenlhece(Integer qtdsEvenlhecida) {
+    public void envenlhecer(Integer qtdsEvenlhecida) {
 
         novaIdade = idade + qtdsEvenlhecida;
-        return novaIdade;
 
+        if (novaIdade <= 21) {
+            altura = (qtdsEvenlhecida * 0.005) + altura;
+
+        } else {
+            aux = 21 - idade;
+            altura = (aux * 0.005) + altura;
+
+
+        }
     }
 
-    public Double engorda(Double qtdsEngordada) {
+    public void engordar(Double qtdsEngordada) {
 
         novoPeso = peso + qtdsEngordada;
-        return novoPeso;
+
     }
 
-    public Double emagrece(Double qtdsEmagrecida) {
+    public void emagrecer(Double qtdsEmagrecida) {
 
         novoPeso = peso - qtdsEmagrecida;
-        return novoPeso;
+
 
     }
 
-    public Double cresce(Double qtdsCresida) {
+    public void crescer(Double qtdsCresida) {
 
         novaAltura = altura + qtdsCresida;
-        return novaAltura;
 
 
     }

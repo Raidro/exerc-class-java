@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8714fb25-be12-449b-97d3-1a17000d61fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/Retangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/Retangulo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/teste/TesteRetangulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/teste/TesteRetangulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/teste/TestePessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exerc-classes-java/br/senac/rn/exercclasse/teste/TestePessoa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/Retangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/teste/TesteRetangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/teste/TesteRetangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/teste/TestePessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/senac/rn/exercclasse/teste/TestePessoa.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +47,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteRetangulo">
+  <component name="RunManager" selected="Application.TestePessoa">
     <configuration name="TesteBola" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.senac.rn.exercclasse.teste.TesteBola" />
+      <module name="exerc-classes-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.senac.rn.exercclasse.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestePessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.senac.rn.exercclasse.teste.TestePessoa" />
       <module name="exerc-classes-java" />
       <extension name="coverage">
         <pattern>
@@ -90,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestePessoa" />
         <item itemvalue="Application.TesteRetangulo" />
         <item itemvalue="Application.TesteQuadrado" />
         <item itemvalue="Application.TesteBola" />
