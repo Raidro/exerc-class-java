@@ -21,7 +21,11 @@ public class Pessoa {
 
         } else {
             aux = 21 - idade;
-            altura = (aux * 0.005) + altura;
+            if (aux < 0) {
+
+            } else {
+                altura = (aux * 0.005) + altura;
+            }
 
 
         }

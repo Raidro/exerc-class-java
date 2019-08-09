@@ -10,11 +10,11 @@ public class TestePessoa extends Pessoa {
         Pessoa pessoa = new Pessoa();
 
         pessoa.nome = "Mateus";
-        pessoa.idade = 18;
+        pessoa.idade = 28;
         pessoa.peso = 80.0;
         pessoa.altura = 1.74;
 
-        pessoa.envenlhecer(8);
+        pessoa.envenlhecer(4);
 
         System.out.println("Idade: " + pessoa.novaIdade + "\n" + "Altura: " + pessoa.altura);
 
